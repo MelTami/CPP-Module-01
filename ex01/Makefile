@@ -6,14 +6,13 @@
 #    By: mvavasso <mvavasso@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/01/10 10:59:04 by mvavasso          #+#    #+#              #
-#    Updated: 2024/01/10 10:59:04 by mvavasso         ###   ########.fr        #
+#    Updated: 2024/02/02 15:25:26 by mvavasso         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	= zombie
 SRCS	= main.cpp\
- 		newZombie.cpp\
-		randomChump.cpp\
+ 		zombieHorde.cpp\
 		Zombie.cpp
 OBJS		= $(addprefix objects/, $(notdir $(SRCS:.cpp=.o)))
 FLAGS		= -Wall -Wextra -Werror -g -std=c++98

@@ -6,14 +6,21 @@
 /*   By: mvavasso <mvavasso@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/10 10:58:39 by mvavasso          #+#    #+#             */
-/*   Updated: 2024/01/15 15:06:45 by mvavasso         ###   ########.fr       */
+/*   Updated: 2024/02/02 15:39:09 by mvavasso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
 
-int main(int argc, char *argv)
+int main(void)
 {
-    // delete ();
-    return (0);
+    Zombie	*walkingDead;
+	int		size;
+	
+	size = 6;
+	walkingDead = zombieHorde(size, "Foz");
+	for (int i = 0; i < size; i++)
+		walkingDead[i].announce();
+	delete [] walkingDead;
+	return (0);
 }
