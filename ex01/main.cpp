@@ -6,7 +6,7 @@
 /*   By: mvavasso <mvavasso@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/10 10:58:39 by mvavasso          #+#    #+#             */
-/*   Updated: 2024/02/02 15:39:09 by mvavasso         ###   ########.fr       */
+/*   Updated: 2024/02/02 17:16:24 by mvavasso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,13 @@
 
 int main(void)
 {
-    Zombie	*walkingDead;
+    Zombie	*zombies;
 	int		size;
 	
 	size = 6;
-	walkingDead = zombieHorde(size, "Foz");
+	zombies = zombieHorde(size, "Foo");
 	for (int i = 0; i < size; i++)
-		walkingDead[i].announce();
-	delete [] walkingDead;
+		zombies[i].announce();
+	delete [] zombies;
 	return (0);
 }
