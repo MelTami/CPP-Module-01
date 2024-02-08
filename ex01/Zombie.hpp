@@ -6,7 +6,7 @@
 /*   By: mvavasso <mvavasso@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/10 10:59:01 by mvavasso          #+#    #+#             */
-/*   Updated: 2024/02/02 15:41:00 by mvavasso         ###   ########.fr       */
+/*   Updated: 2024/02/02 17:50:47 by mvavasso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@ class Zombie{
     std::string   name;
     public:
     Zombie();
-    Zombie(std::string name);
     ~Zombie();
 
     void            setZombieName( std::string name, int N);

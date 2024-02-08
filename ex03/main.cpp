@@ -6,9 +6,13 @@
 /*   By: mvavasso <mvavasso@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/02 17:32:21 by mvavasso          #+#    #+#             */
-/*   Updated: 2024/02/02 17:33:42 by mvavasso         ###   ########.fr       */
+/*   Updated: 2024/02/08 23:26:52 by mvavasso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "Weapon.hpp"
+#include "HumanA.hpp"
+#include "HumanB.hpp"
 
 int main()
 {

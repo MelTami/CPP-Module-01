@@ -6,12 +6,12 @@
 #    By: mvavasso <mvavasso@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/02/02 17:05:41 by mvavasso          #+#    #+#              #
-#    Updated: 2024/02/02 17:05:57 by mvavasso         ###   ########.fr        #
+#    Updated: 2024/02/08 23:29:02 by mvavasso         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	= brain
-SRCS	= main.cpp
+SRCS	= main.cpp HumanA.cpp HumanB.cpp Weapon.cpp
 OBJS		= $(addprefix objects/, $(notdir $(SRCS:.cpp=.o)))
 FLAGS		= -Wall -Wextra -Werror -g -std=c++98
 CC			= c++
